@@ -1,0 +1,602 @@
+/* == Body == */
+
+body,
+html {
+  overflow-x: hidden;
+}
+
+/* == Navbar == */
+
+.container-fluid {
+  display: flex;
+  background: whitesmoke;
+}
+
+.header li {
+  justify-content: space-around;
+  margin-left: 20px;
+  font-family: "iconfont" !important;
+}
+
+.header:hover {
+  color: #017959;
+}
+
+.nav-item dropdown:hover {
+  transform: translate3d(2);
+}
+
+/* == Background Image == */
+
+.background h1 {
+  margin-top: -300px;
+  position: absolute;
+  color: white;
+  margin-left: 450px;
+}
+
+.background img {
+  background-position: top;
+  height: 400px;
+  width: 100%;
+  border-bottom-left-radius: 300px;
+  border-bottom-right-radius: 300px;
+}
+
+/* == Nav Tab == */
+
+.table {
+  width: 240vmin;
+  margin-left: 120px;
+  margin-top: -220px;
+}
+
+.table td {
+  border-collapse: collapse;
+  text-decoration: none;
+  border: none;
+  border-bottom: none;
+  padding: 30px;
+  margin: 10px;
+  border: none;
+  width: 290px;
+  background: white;
+}
+
+.search-btn {
+  width: 300px;
+  height: 60px;
+  background: orange;
+  color: white;
+  font-size: 20px;
+  padding: 5px;
+  border-radius: 20px;
+}
+
+.section {
+  margin-top: -10px;
+}
+
+.hotels-menu {
+  margin-left: -1450px;
+  margin-top: -320px;
+}
+
+.nav-link {
+  font-size: 22px;
+  padding-top: 20px;
+}
+
+.nav-link:hover {
+  text-decoration: underline 4px green;
+  font-weight: bold;
+  font-size: 24px;
+  color: #017959;
+}
+
+.nav-item6 :hover {
+  background-color: green;
+}
+
+.dropdown-item:hover {
+  display: contents;
+}
+
+.dropdown-menu:hover {
+  display: contents;
+}
+
+h1 {
+  font-size: 6vmin;
+  margin-top: -480px;
+}
+
+/* == Carousel == */
+
+.image-slider {
+  margin: 0px 150px;
+}
+
+.carousel-inner-ac {
+  overflow: hidden;
+}
+
+.carousel-item img {
+  border-radius: 15px;
+}
+
+/* == Best 24*7 Start ==  */
+
+.container2 {
+  align-items: center;
+}
+
+.best {
+  margin-left: 150px;
+  margin-top: 30px;
+  width: 650px;
+  background-color: white;
+}
+
+.support {
+  margin-left: 30px;
+  margin-top: 30px;
+  width: 655px;
+  background-color: white;
+}
+
+/*  == Amazing traval offer Start ==  */
+
+.container3 {
+  background-color: whitesmoke;
+  margin-left: 150px;
+  display: block;
+  margin-right: 150px;
+  margin-bottom: 20px;
+}
+
+.title {
+  display: flex;
+  margin-left: 70px;
+  padding-top: 50px;
+  margin-top: 20px;
+}
+
+.title h2 {
+  margin-top: -10px;
+}
+
+.title button {
+  margin-left: 100px;
+  font-size: 20px;
+  width: 90px;
+  border: none;
+  background: whitesmoke;
+}
+
+.title button:hover {
+  background-color: orange;
+  border-radius: 15px;
+  color: white;
+}
+
+.cart {
+  margin-top: 20px;
+}
+
+.cart img {
+  margin-left: 20px;
+  width: 387px;
+}
+
+/*  == Best Flight Deals Start ==   */
+
+.container4 {
+  background-color: whitesmoke;
+  margin-left: 150px;
+  display: block;
+  margin-right: 150px;
+  margin-bottom: 20px;
+}
+
+.deals {
+  display: flex;
+  margin-left: 40px;
+  padding-top: 10px;
+  margin-top: 20px;
+}
+
+.card1 {
+  margin-top: 20px;
+  display: inline;
+  margin-left: -40px;
+}
+
+.card {
+  padding: 5px;
+  left: 70px;
+  padding-left: 5px;
+  margin-left: 10px;
+  box-shadow: 0 1px 6px 2px rgb(0 0 0 /25%);
+}
+
+/*  == Travel Blog Start ==   */
+
+.container5 {
+  background-color: whitesmoke;
+  margin-left: 150px;
+  margin-right: 150px;
+  display: block;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+.blog {
+  display: flex;
+  margin-left: 50px;
+  padding-top: 50px;
+  margin-top: 20px;
+}
+
+.blog h2 {
+  margin-top: -30px;
+}
+
+.blog-slider {
+  width: 75vw;
+  margin-left: -30px;
+}
+
+/*  == Just for Mobile App customers Start ==   */
+
+.mobile img {
+  margin-left: -250px;
+}
+
+.form {
+  margin-top: -1350px;
+  margin-left: 650px;
+}
+
+.app {
+  margin-left: 620px;
+  margin-top: -110px;
+  background: none;
+}
+
+.app img {
+  height: 115px;
+}
+
+.scan {
+  margin-left: 750px;
+  margin-top: -130px;
+}
+
+.scan img {
+  height: 150px;
+}
+
+.download img {
+  margin-left: -1300px;
+}
+
+.download p {
+  margin-left: -1400px;
+  margin-top: 200px;
+}
+
+/*  == Email Start ==   */
+
+.container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #fff;
+  height: 200px;
+  width: 100%;
+  margin-top: 50px;
+}
+
+.form2 {
+  height: 48px;
+  border-radius: 2px;
+  color: rgb(73, 64, 64);
+  background-color: #f7f5f5;
+  padding: 0 10px;
+  font-size: 15px;
+  border: none;
+  display: inline-block;
+  vertical-align: middle;
+  width: 480px;
+}
+
+.btn5 {
+  display: inline-block;
+  width: 142px;
+  height: 36px;
+  line-height: 32px;
+  background: #ff9d0d;
+  color: #fff;
+  font-size: 14px;
+  vertical-align: middle;
+  border-radius: 4px;
+  border: none;
+  text-align: center;
+  margin-right: 11px;
+  cursor: pointer;
+  padding-bottom: 15px;
+  position: absolute;
+  margin-left: -150px;
+  margin-top: 6px;
+}
+
+.btn5:hover {
+  background: #df8a0b;
+}
+
+/*  == Accordian Start ==   */
+
+.conatainer7 {
+  height: 500px;
+  background-color: wheat;
+  padding-top: 520px;
+  padding-left: 10px;
+}
+
+.about h1 {
+  margin-left: 10px;
+  color: black;
+}
+
+.container8 {
+  display: none;
+}
+
+.row1 {
+  margin-left: 150px;
+}
+
+.row1 span {
+  font-size: 40px;
+}
+
+.row1 h2 {
+  font-size: 22px;
+}
+
+.row1 h4 {
+  font-size: 18px;
+  width: 1200px;
+  text-align: justify;
+}
+
+/*  == Footer Start ==  */
+
+.footer1 {
+  background-color: #353535;
+  color: white;
+  padding: 10px;
+  font-size: 18px;
+  padding-top: 30px;
+  display: flex;
+  height: 650px;
+}
+
+.footer1 li {
+  padding-left: 20px;
+  list-style-type: none;
+}
+
+.payment {
+  margin-top: -320px;
+  margin-left: 60px;
+}
+
+.payment img {
+  padding-right: 40px;
+  padding-top: 20px;
+  width: 120px;
+}
+
+.logo2 {
+  margin-left: 40px;
+  padding-left: 20px;
+  margin-top: 20px;
+}
+
+.logo2 img {
+  padding-right: 20px;
+  padding-top: 20px;
+  width: 60px;
+}
+
+.paddy {
+  color: #666;
+  margin-bottom: 100px;
+  border: none !important;
+}
+
+/* ****************************** == Mobile Device / Media Query == ***************************** */
+
+@media only screen and (max-width: 854px) {
+  /* == Navbar == */
+
+  .btn {
+    margin-left: 90px;
+  }
+
+  /* == Background Image == */
+
+  .background h1 {
+    margin-left: 30px;
+  }
+
+  /* == Nav Tab == */
+
+  .hotels-menu {
+    margin-left: -250px;
+    margin-top: -1175px;
+  }
+
+  .table {
+    margin-left: -20px;
+    display: block;
+  }
+
+  .table tr {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .table1 td {
+    display: flex;
+    width: 480px;
+    margin-top: -10px;
+    margin-left: -10px;
+  }
+
+  /* == Carousel Start == */
+
+  .image-slider {
+    width: 450px;
+    margin-left: 10px;
+  }
+
+  /* == Best 24*7 Start ==  */
+
+  .container2 {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .best {
+    margin-left: 0px;
+    width: 480px;
+  }
+
+  .support {
+    margin-left: 0px;
+    width: 480px;
+  }
+
+  /*  == Amazing traval offer Start ==  */
+
+  .container3 {
+    margin-left: 0px;
+    width: 480px;
+  }
+
+  .container3 button {
+    margin: 0;
+  }
+
+  .container3 .title {
+    display: block;
+  }
+
+  /*  == Best Flight Deals Start ==   */
+
+  .container4 {
+    width: 480px;
+    margin-left: 0;
+  }
+
+  .card1 {
+    width: 1000px;
+  }
+
+  .card-body {
+    width: 500px;
+  }
+
+  /* == Travel Blog Start == */
+
+  .container5 {
+    width: 480px;
+    margin-left: 0;
+  }
+
+  .blog-slider {
+    width: 1000px;
+  }
+
+  .card-body2 {
+    width: 600px;
+  }
+
+  .card-body2 .card-title {
+    width: 200px;
+  }
+
+  /*  == Just for Mobile App customers Start ==   */
+
+  .container6 {
+    display: flex;
+    margin-left: 900px;
+    margin-top: 50px;
+  }
+
+  .download {
+    margin-top: 900px;
+  }
+
+  .download img {
+    margin-left: -1400px;
+  }
+
+  .download p {
+    margin-top: 20px;
+    font-weight: bold;
+  }
+
+  /* == Email Start == */
+
+  .div {
+    margin-top: -750px;
+    margin-left: 25px;
+  }
+
+  .form2 {
+    display: none;
+  }
+
+  .btn5 {
+    margin-top: -280px;
+    margin-left: -300px;
+    position: absolute;
+  }
+
+  /*  == Accordian Start ==   */
+
+  .row1 {
+    display: none;
+  }
+
+  .container8 {
+    display: flex;
+    margin-left: -10px;
+    margin-top: -330px;
+  }
+
+  /* == Footer Start == */
+
+  .footer1 {
+    margin-top: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    height: 1270px;
+  }
+
+  .payment {
+    display: none;
+  }
+
+  .paddy {
+    display: none;
+  }
+
+  .logo2 {
+    margin-top: -100px;
+  }
+}
